@@ -283,75 +283,83 @@
 
         <!-- FOOTER -->
         <div class="container-fluid">
-            <div class="row">    
-                <div class="footer col-12 col-lg-7 col-xl-7 d-flex">
-                    <div class="footer-content">
-                    <div class="footer-section about">
-                        <h2 class="font-weight-bold mb-5 h1">Sobre Nosotros</h2>
+          <div class="row">    
+              <div class="footer">
+                  <div class="footer-content">
+                    <div class="row">
+
+                      <div class="footer-section col-12 col-md-4">
+                        <h2 class="font-weight-bold mb-5 h1 text-center">Sobre Nosotros</h2><hr>
                         <p>Somos una comunidad Tucumana en la cual podes subir tus eventos para que el país y el mundo te conozca.</p>
-                        <div class="contact">
-                            <h5 class="font-weight-bold mb-5 h1">Contáctanos</h5>
-                            <span><ion-icon name="call"></ion-icon>&nbsp; 3815685218</span>
-                        </div>
-                        <div class="email">
-                            <span><ion-icon name="logo-google"></ion-icon>&nbsp; enTUCasa@gmail.com</span>
-                        </div>
+                        
+                      </div>
+                      <div class="footer-section col-12 col-md-4">
+                          <h2 class="font-weight-bold mb-5 h1 text-center">Redes Sociales</h2><hr>
+                          <ul>
+                              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><span> Seguínos en Facebook</span><br><br>
+                              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><span> Seguínos en Twitter</span><br><br>
+                              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a><span> Seguínos en Instagram</span><br><br>
+                          </ul>
+                      </div>
+                      <div class="footer-section col-12 col-md-4">
+                        <div>
+                          <h5 class="font-weight-bold mb-5 h1 text-center">Contáctanos</h5><hr>
+                          <span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; Tel. +54-0381-15685218</span>
+                      </div>
+                      <div class="email">
+                          <span><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; enTUCasa@gmail.com</span>
+                      </div>
                     </div>
-                    <div class="footer-section links">
-                        <h2 class="font-weight-bold mb-5 h1">Redes Sociales</h2>
-                        <ul>
-                            <a href="#"><li><ion-icon name="logo-facebook"></ion-icon></a><span> Seguínos en Facebook</span></li><br>
-                            <a href="#"><li><ion-icon name="logo-instagram"></ion-icon></a><span> Seguínos en Instagram</span></li><br>
-                            <a href="#"><li><ion-icon name="logo-twitter"></ion-icon></a><span> Seguínos en Twitter</span></li><br>
-                        </ul>
-                    </div>
-                    </div>
-                    <div class="footer-botton">
-                    &copy; 2020, Todos los Derechos reservados -|enTUCasa|-
+                  </div>
+               </div>
+                <div class="row">
+                    <div class="footer-botton col">
+                  &copy; 2020, All right Reversed -|enTUCasa|-
                     </div>
                 </div>
-            </div>
-        </div>   
-                <!--Fín de Footer-->
-      
-      <!-- Modal -->
-          <div class="modal-fade" id="#login" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <form>
-                <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Iniciar Sesión</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
-                  </div>
-                  <br>
-                  <div class="input-group mb-3">
-                    <input type="password" class="form-control" placeholder="Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
-                  </div>
-                  <div class="input-group mb-3" style="text-align:center">
-                    <input type="checkbox" class="form-input-check" id="aceptar">
-                    <label for="aceptar" class="form-check-label text-muted"> Recuérdame</label>
-                  </div>
-                  <div class="input-group mb-3">
-                    <label class="font-weight-bold">No tenés cuenta?<span class="text-danger"></span></label>
-                    <button type="button" class="btn btn-green" data-dismiss="modal">Registrate</button>
-                  </div>
-                  </div>
-                  <br>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-green" data-dismiss="modal">Ingresar</button>
-                  <button type="submit" class="btn btn-cancelar">Cancelar</button>
-                </div>
-              </form>
-              </div>
             </div>
           </div>
-        <!--FIN MODAL-->
+      </div>   
+              <!--Fín de Footer-->
+    
+    <!-- Modal -->
+        <div class="modal fade" id="modal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <form class="modal-form">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Iniciar Sesión</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+                </div>
+                <br>
+                <div class="input-group mb-3">
+                  <input type="password" class="form-control" placeholder="Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+                </div>
+                <div class="input-group mb-3" style="text-align:center">
+                  <input type="checkbox" class="form-input-check" id="aceptar">
+                  <label for="aceptar" class="form-check-label text-muted"> Recuérdame</label>
+                </div>
+                <div class="input-group mb-3">
+                  <label class="font-weight-bold">No tenés cuenta?<span class="text-danger"></span></label>
+                  <button type="button" class="btn btn-green" data-dismiss="modal">Registrate</button>
+                </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-green" data-dismiss="modal">Ingresar</button>
+                <button type="submit" class="btn btn-cancelar">Cancelar</button>
+              </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      <!--FIN MODAL-->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
