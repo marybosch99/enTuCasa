@@ -1,0 +1,82 @@
+body {
+  margin: 30px;
+  background-color: #222831;
+}
+
+/* logo */
+#header img {
+  width: 140px;
+}
+
+/* container principal */
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* tarjetas polaroid */
+div.polaroid {
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.rotate_right {
+  float: left;
+  transform: rotate(7deg);
+}
+
+div.rotate_left {
+  float: left;
+  transform: rotate(-8deg);
+}
+
+/* texto h1 */
+.h1 {
+  color: #ffff;
+  text-shadow: 0 0 0.1em #8f7;
+}
+
+/* texto h3 */
+.h3 {
+    color: #ffff;
+}
+
+/* animacion background */
+.color-change-4x {
+  -webkit-animation: color-change-4x 6s linear infinite alternate both;
+  animation: color-change-4x 6s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-4x {
+  0% {
+    background: #222831;
+  }
+  33.3333% {
+    background: #76e8ab;
+  }
+  66.666% {
+    background: #393e46;
+  }
+  100% {
+    background: #ff7777;
+  }
+}
+@keyframes color-change-4x {
+  0% {
+    background: #222831;
+  }
+  33.3333% {
+    background: #76e8ab;
+  }
+  66.666% {
+    background: #393e46;
+  }
+  100% {
+    background: #ff7777;
+  }
+}

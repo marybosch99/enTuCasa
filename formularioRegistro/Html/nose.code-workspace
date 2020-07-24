@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Mary\\proyecto final"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "otro"
+	}
+}

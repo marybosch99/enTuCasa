@@ -1,0 +1,150 @@
+:root{
+    --color-dark: #222831;
+    --color-dark-x: #34343c;
+    --color-dark-xx: #393e46;
+    --color-light: #ffffff;
+    --color-grey: #f5f6f8;
+
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: #393e46;
+    color: #ffffff;
+    letter-spacing: .05rem;
+}
+
+/* Cambio de color de las clases */
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.bg-dark {
+    background-color: #222831 !important;
+    box-shadow: 0 0 7px 3px #76e8ab;
+}
+
+/* Padding blanco para tamaños grandes */
+#section {
+    
+    padding: 3rem;
+}
+
+
+
+/* logo */
+.logo img{
+    width: 175px;
+    height: auto;
+}
+
+/* Shadow del titulo */
+.h1{
+    
+    text-shadow: 0 0 0.1em #8F7;
+   }
+
+
+
+/* Padding del container de formulario */
+.p-6 {
+    padding: 4rem 7rem;
+}
+
+/* botones */
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    min-width: 10rem;
+}
+
+.btn-outline-dark{
+    border: 2px solid  #393e46;
+    /* background-color: transparent; */
+}
+
+
+/* controles de formulario */
+.form-control {
+    background-color: #393e46;
+    border: 2px solid #393e46;
+    border-radius: .2rem;
+    padding: 1.5rem 1rem;
+}
+
+.form-control:focus {
+    background-color: #ffffff;
+    border: 2px solid #76e8ab;
+  }
+
+
+/* 
+input[type=checkbox]:focus {
+    background-color: #ff7777;
+} */
+
+
+/* boton registrese */
+.btn-green{
+    background-color:  #76e8ab;
+    color: #ffffff;
+    border: none;
+    transition: all .3s ease;
+}
+
+.btn-green:hover {
+    background-color: #ff7777;
+    border: none;
+    color: #ffffff;
+}
+
+/* link volver */
+.volver{
+    color: #76e8ab;
+    text-decoration: none;
+}
+
+.volver:hover{
+    color: #ff7777;
+}
+
+
+
+/* Columna de imagen */
+.registro-bg{
+    background-image: url(/formularioRegistro/Img/verdeagua.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-bottom: 0rem;
+    filter: grayscale(40%);
+}
+
+
+@media (max-width: 576px){
+    #section{
+        padding: 0;
+    }
+    .p-6{
+        padding: 2rem;
+    }
+
+    .btn-width{
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 1200px){
+    .registro-bg{
+        min-height: 50vh;
+    }
+}
+
+
+
+

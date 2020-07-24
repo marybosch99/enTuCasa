@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="evento.css">
+    <title>CreaTuEvento</title>
+</head>
+
+<body>
+
+    <!--header-->
+
+    <!--/header-->
+
+    <!--main-event-form-->
+    <div id="section" class="bg-image">
+        <div class="container bg-dark p-6">
+            <div class="row">
+                <!--columna izquierda-->
+                <div class="col-12 col-md-12 col-lg-6">
+
+                    <a class="logo mb-5" href="/index.html">
+                        <img src="/images/entucasalogo.png" alt="logo de en tu casa" >
+                      </a>
+                    <h1 class="font-weight-bold mt-3 mb-3 h1">Crea tu evento gratis</h1>
+                    <p class="text-muted mb-5">Ingresa la siguiente informacion para crear tu evento.</p>
+                    
+
+                    <div class="form mb-1 col-12">
+                        <!--nomre del evento-->
+                        <div class="form-group mb-3 ">
+                            <label class="font-weight-bold">Nombre del evento <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Dale un nombre corto y llamativo.">
+                        </div>
+
+                        <!--Categoria-->
+                        <div class="form-group mb-3 ">
+                            <label for="category" class="font-weight-bold">Elige una Categoria<span
+                                    class="text-danger">*</span></label>
+                            <select name="category" id="category" class="form-control">
+                                <option value="">Elige una categoría</option>
+                                <option value="art-culture">Arte &amp; Cultura</option>
+                                <option value="musica">Musica</option>
+                                <option value="food-drinks">Comida &amp; Bebidas</option>
+                                <option value="cursos-talleres">Cursos y talleres</option>
+                                <option value="seminarios-conferencias">Seminarios y conferencias</option>
+                                <option value="tech">Tecnología</option>
+                                <option value="donnation">Donación</option>
+                                <option value="otro">Otra categoria</option>
+                            </select>
+
+                        </div>
+
+                        <!--descripcion-->
+                        <div class="form-group mb-3 ">
+                            <label class="font-weight-bold">Escibe una descripcion del evento<span
+                                    class="text-danger">*</span></label>
+                            <textarea name="description" class="form-control" rows="3" maxlength="65535"
+                                placeholder="Escribe un párrafo corto pero potente que describa tu evento (Punchline)"></textarea>
+                        </div>
+                        <!--/descripcion-->
+                        
+                        <!--imagen-->
+                        <div class="form-group mt-5">
+                            <label class="font-weight-bold">Imagen ( 836px x 522px )<span
+                                    class="text-danger">*</span></label>
+                            <input type="file" class="form-control-file" id="">
+                            <p class="text-muted mb-5">&quot;Todo entra por los ojos&quot; Elige una imagen
+                                llamativa y de buena calidad ya que será lo primero que vean los usuarios.</p>
+                        </div>
+                        <!--/imagen-->
+                       
+                    </div>
+                </div>
+                <!--/columna izquierda-->
+
+
+                <!--columna derecha-->
+                <div class="col-12 col-md-12 col-lg-6">
+                 
+                    <div class="form mt-0 col-12">
+                    <!--video-->
+                    <div class="form-group">
+                        <label class="font-weight-bold">Video<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" maxlength="500" name="video"
+                            placeholder="Copia el link de tu video" value="">
+                        <p class="text-muted mb-5">Ingresa el link de la plataforma de streaming en a que se realizara
+                            tu evento</p>
+                    </div>
+
+                     <!--Fecha inicio del evento-->
+                     <div class="form-group form-datetime-select">
+                        <fieldset>
+                            <label class="font-weight-bold">Fecha de inicio del evento<span
+                                    class="text-danger">*</span></label><br>
+                            <select name="date" class="form-control" style="width:auto;display:inline-block;">
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24" selected="selected">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select> de <select name="dateStart[month]" class="form-control valid"
+                                style="width:auto;display:inline-block;">
+                                <option value="01">enero</option>
+                                <option value="02">febrero</option>
+                                <option value="03">marzo</option>
+                                <option value="04">abril</option>
+                                <option value="05">mayo</option>
+                                <option value="06">junio</option>
+                                <option value="07" selected="selected">julio</option>
+                                <option value="08">agosto</option>
+                                <option value="09">septiembre</option>
+                                <option value="10">octubre</option>
+                                <option value="11">noviembre</option>
+                                <option value="12">diciembre</option>
+                            </select> de <select name="dateStart[year]" class="form-control"
+                                style="width:auto;display:inline-block;">
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020" selected="selected">2020</option>
+                            </select>,
+                            <select name="dateStart[hour]" class="form-control"
+                                style="width:auto;display:inline-block;">
+                                <option value="00">0</option>
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                                <option value="11" selected="selected">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                            </select>:<select name="dateStart[minute]" class="form-control"
+                                style="width:auto;display:inline-block;">
+                                <option value="00">00</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14" selected="selected">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                                <option value="45">45</option>
+                                <option value="46">46</option>
+                                <option value="47">47</option>
+                                <option value="48">48</option>
+                                <option value="49">49</option>
+                                <option value="50">50</option>
+                                <option value="51">51</option>
+                                <option value="52">52</option>
+                                <option value="53">53</option>
+                                <option value="54">54</option>
+                                <option value="55">55</option>
+                                <option value="56">56</option>
+                                <option value="57">57</option>
+                                <option value="58">58</option>
+                                <option value="59">59</option>
+                            </select></fieldset>
+                    </div>
+                    <!--Fecha fin del evento-->
+                    <div class="form-group form-datetime-select">
+                        <fieldset>
+                            <label class="font-weight-bold">El evento finaliza<span
+                                    class="text-danger">*</span></label><br>
+                            <select name="date" class="form-control" style="width:auto;display:inline-block;">
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24" selected="selected">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select> de <select name="dateStart[month]" class="form-control valid"
+                                style="width:auto;display:inline-block;">
+                                <option value="01">enero</option>
+                                <option value="02">febrero</option>
+                                <option value="03">marzo</option>
+                                <option value="04">abril</option>
+                                <option value="05">mayo</option>
+                                <option value="06">junio</option>
+                                <option value="07" selected="selected">julio</option>
+                                <option value="08">agosto</option>
+                                <option value="09">septiembre</option>
+                                <option value="10">octubre</option>
+                                <option value="11">noviembre</option>
+                                <option value="12">diciembre</option>
+                            </select> de <select name="dateStart[year]" class="form-control"
+                                style="width:auto;display:inline-block;">
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020" selected="selected">2020</option>
+                            </select>,
+                            <select name="dateStart[hour]" class="form-control"
+                                style="width:auto;display:inline-block;">
+                                <option value="00">0</option>
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                                <option value="11" selected="selected">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                            </select>:<select name="dateStart[minute]" class="form-control"
+                                style="width:auto;display:inline-block;">
+                                <option value="00">00</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14" selected="selected">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                                <option value="45">45</option>
+                                <option value="46">46</option>
+                                <option value="47">47</option>
+                                <option value="48">48</option>
+                                <option value="49">49</option>
+                                <option value="50">50</option>
+                                <option value="51">51</option>
+                                <option value="52">52</option>
+                                <option value="53">53</option>
+                                <option value="54">54</option>
+                                <option value="55">55</option>
+                                <option value="56">56</option>
+                                <option value="57">57</option>
+                                <option value="58">58</option>
+                                <option value="59">59</option>
+                            </select></fieldset>
+                    </div>
+
+                    <!--restriccion-->
+                    <div class="form-group">
+                        <label class="font-weight-bold">Restricción<span class="text-danger">*</span></label> <br>
+                        <input type="radio" name="restriction" value="1" id="restriction">
+                        <label for="restriction" class="form-check-label">Apto para publico en general</label> <br>
+                        <input type="radio" name="restriction" value="2" id="restriction">
+                        <label for="restriction" class="form-check-label">Apto para menores de 18 en compañía de un
+                            adulto.</label> <br>
+                        <input type="radio" name="restriction" value="3">
+                        <label for="restriction" class="form-check-label">Apto solo para mayores de 18 años.</label>
+                    </div>
+
+                    <!--buton&link-->
+                    <button class="btn btn-green mt-5 btn-width"><strong>Enviar</strong></button>
+                    <div><a href="/index.html" class="volver float-right mt-3"><b>Volver</b></a></div>
+
+                    </div>
+                </div>
+                <!--/columna derecha-->
+
+            </div>            
+        </div>
+    </div>
+   
+
+    <!--/main-event-form-->
+
+    <!--footer-->
+    <!--/footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
