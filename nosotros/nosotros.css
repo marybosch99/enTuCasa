@@ -1,6 +1,20 @@
+:root{
+  --color-oscuro: #222831;
+  --color-medio: #34343c;
+  --color-claro: #393e46;
+  --color-grey: #f5f6f8;
+  --color-light: #ffffff;
+  --color-green: #76e8ab;
+  --color-salmon: #ff7777;
+  --color-shadow: #8f7;  
+  --color-polaroid: #bfbfbf;
+  --color-polshadow: #aaaaaa;
+}
+
+
 body {
   margin: 30px;
-  background-color: #222831;
+  background-color: var(--color-oscuro);
 }
 
 /* logo */
@@ -20,9 +34,9 @@ body {
 div.polaroid {
   width: 284px;
   padding: 10px 10px 20px 10px;
-  border: 1px solid #bfbfbf;
-  background-color: white;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  border: 1px solid var(--color-polaroid) ;
+  background-color: var(--color-light);
+  box-shadow: 10px 10px 5px var(--color-polshadow);
 }
 
 div.rotate_right {
@@ -37,13 +51,13 @@ div.rotate_left {
 
 /* texto h1 */
 .h1 {
-  color: #ffff;
-  text-shadow: 0 0 0.1em #8f7;
+  color: var(--color-light);
+  text-shadow: 0 0 0.1em var(--color-shadow);
 }
 
 /* texto h3 */
 .h3 {
-    color: #ffff;
+    color: var(--color-light);
 }
 
 /* animacion background */
@@ -54,29 +68,29 @@ div.rotate_left {
 
 @-webkit-keyframes color-change-4x {
   0% {
-    background: #222831;
+    background: var(--color-oscuro);
   }
   33.3333% {
-    background: #76e8ab;
+    background: var(--color-green);
   }
   66.666% {
-    background: #393e46;
+    background: var(--color-claro);
   }
   100% {
-    background: #ff7777;
+    background: var(--color-salmon);
   }
 }
 @keyframes color-change-4x {
   0% {
-    background: #222831;
+    background: var(--color-oscuro);
   }
   33.3333% {
-    background: #76e8ab;
+    background: var(--color-green);
   }
   66.666% {
-    background: #393e46;
+    background: var(--color-claro);
   }
   100% {
-    background: #ff7777;
+    background: var(--color-salmon);
   }
 }

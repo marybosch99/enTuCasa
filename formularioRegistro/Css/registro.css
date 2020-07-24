@@ -1,9 +1,12 @@
 :root{
-    --color-dark: #222831;
-    --color-dark-x: #34343c;
-    --color-dark-xx: #393e46;
-    --color-light: #ffffff;
+    --color-oscuro: #222831;
+    --color-medio: #34343c;
+    --color-claro: #393e46;
     --color-grey: #f5f6f8;
+    --color-light: #ffffff;
+    --color-green: #76e8ab;
+    --color-salmon: #ff7777;
+    --color-shadow: #8f7;  
 
 }
 
@@ -12,19 +15,19 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: 300;
-    background-color: #393e46;
-    color: #ffffff;
+    background-color: var(--color-claro);
+    color: var(--color-light);
     letter-spacing: .05rem;
 }
 
 /* Cambio de color de las clases */
 .bg-light {
-    background-color: #ffffff !important;
+    background-color: var(--color-light)!important;
 }
 
 .bg-dark {
-    background-color: #222831 !important;
-    box-shadow: 0 0 7px 3px #76e8ab;
+    background-color: var(--color-oscuro)!important;
+    box-shadow: 0 0 7px 3px --var(--color-green);
 }
 
 /* Padding blanco para tamaños grandes */
@@ -44,7 +47,7 @@ body{
 /* Shadow del titulo */
 .h1{
     
-    text-shadow: 0 0 0.1em #8F7;
+    text-shadow: 0 0 0.1em var(--color-shadow);
    }
 
 
@@ -63,53 +66,53 @@ body{
 }
 
 .btn-outline-dark{
-    border: 2px solid  #393e46;
+    border: 2px solid  var(--color-claro);
     /* background-color: transparent; */
 }
 
 
 /* controles de formulario */
 .form-control {
-    background-color: #393e46;
-    border: 2px solid #393e46;
+    background-color:  var(--color-claro);
+    border: 2px solid  var(--color-claro);
     border-radius: .2rem;
     padding: 1.5rem 1rem;
 }
 
 .form-control:focus {
-    background-color: #ffffff;
-    border: 2px solid #76e8ab;
+    background-color: var(--color-light)#ffffff;
+    border: 2px solid var(--color-green);
   }
 
 
 /* 
 input[type=checkbox]:focus {
-    background-color: #ff7777;
+    background-color: var(--color-salmon);
 } */
 
 
 /* boton registrese */
 .btn-green{
-    background-color:  #76e8ab;
-    color: #ffffff;
+    background-color:   var(--color-green);
+    color: var(--color-light);
     border: none;
     transition: all .3s ease;
 }
 
 .btn-green:hover {
-    background-color: #ff7777;
+    background-color: var(--color-salmon);
     border: none;
-    color: #ffffff;
+    color:var(--color-light);
 }
 
 /* link volver */
 .volver{
-    color: #76e8ab;
+    color: var(--color-green);
     text-decoration: none;
 }
 
 .volver:hover{
-    color: #ff7777;
+    color: var(--color-salmon);
 }
 
 
