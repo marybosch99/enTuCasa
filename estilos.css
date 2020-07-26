@@ -91,15 +91,18 @@ html{
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 7px 3px #393e46;
-    letter-spacing: .03rem;   
-  
+    letter-spacing: .03rem;
+   
+    
 }
 
 #sumate .bg-grey{    
     background-color: #393e46;
     border-radius: 3px;
     box-shadow: 0 0 7px 3px #76e8ab;
-    }
+    align-items: center;
+    justify-content: center;
+}
 
 #sumate .text-center {
     font-size: 1rem;
