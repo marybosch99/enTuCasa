@@ -38,14 +38,14 @@
                         <!--nomre del evento-->
                         <div class="form-group mb-3 ">
                             <label class="font-weight-bold">Nombre del evento <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" placeholder="Dale un nombre corto y llamativo.">
+                            <input type="text" class="form-control" placeholder="Dale un nombre corto y llamativo." required>
                         </div>
 
                         <!--Categoria-->
                         <div class="form-group mb-3 ">
                             <label for="category" class="font-weight-bold">Elige una Categoria<span
                                     class="text-danger">*</span></label>
-                            <select name="category" id="category" class="form-control">
+                            <select name="category" id="category" class="form-control" required>
                                 <option value="">Elige una categoría</option>
                                 <option value="art-culture">Arte &amp; Cultura</option>
                                 <option value="musica">Musica</option>
@@ -72,7 +72,7 @@
                         <div class="form-group mt-5">
                             <label class="font-weight-bold">Imagen ( 836px x 522px )<span
                                     class="text-danger">*</span></label>
-                            <input type="file" class="form-control-file" id="">
+                            <input type="file" class="form-control-file" id="" required>
                             <p class="text-muted mb-5">&quot;Todo entra por los ojos&quot; Elige una imagen
                                 llamativa y de buena calidad ya que será lo primero que vean los usuarios.</p>
                         </div>
@@ -91,7 +91,7 @@
                         <div class="form-group">
                             <label class="font-weight-bold">Video<span class="text-danger">*</span></label>
                             <input type="text" class="form-control" maxlength="500" name="video"
-                                placeholder="Copia el link de tu video" value="">
+                                placeholder="Copia el link de tu video" value="" required>
                             <p class="text-muted mb-5">Ingresa el link de la plataforma de streaming en a que se
                                 realizara
                                 tu evento</p>
@@ -101,16 +101,16 @@
                         <div class="form-group form-datetime-select">
                             <label for="start" class="font-weight-bold">Fecha de inicio del evento<span
                                     class="text-danger">*</span></label>
-                            <input type="datetime-local" id="meeting-time" name="meeting-time" value="2020-06-12T19:30"
-                                min="2019-06-07T00:00" max="2025-06-14T00:00">
+                            <input type="datetime-local" id="meeting-time" name="meeting-time" value="2020-07-27T19:30"
+                                min="2019-06-07T00:00" max="2025-06-14T00:00" required>
                         </div>
 
                         <!--Fecha fin del evento-->
                         <div class="form-group form-datetime-select">
                             <label for="start" class="font-weight-bold">El evento finaliza<span
                                     class="text-danger">*</span></label>
-                            <input type="datetime-local" id="meeting-time" name="meeting-time" value="2020-06-12T19:30"
-                                min="2019-06-07T00:00" max="2025-06-14T00:00">
+                            <input type="datetime-local" id="meeting-time" name="meeting-time" value="2020-07-27T19:30"
+                                min="2019-06-07T00:00" max="2025-06-14T00:00" required>
 
                         </div>
 
