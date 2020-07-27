@@ -1,5 +1,14 @@
 html{
     scroll-behavior: smooth;
+
+}
+
+.ancla:before{
+    display: block;
+    content: " ";
+    margin-top: -60px;
+    height: 60px;
+    visibility: hidden;
 }
 
 body{
@@ -194,4 +203,6 @@ body{
     padding: 0.3rem 1rem !important;
   }
   /* FIN MODAL */
+
+
   
