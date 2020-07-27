@@ -2,7 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
-
+body{
+    background-color: #222831;
+    
+}
 /* NAV */
 #main{
     padding-top: 70px;
@@ -31,7 +34,6 @@ html{
 /* FIN NAV */
 
 /* CARDS */
-
 .card-body{
     font-size: 13px;
     display: block;
@@ -42,28 +44,28 @@ html{
     color: #1A171B;
     box-shadow: 2px 3px 6px rgba(0,0,0,0.15);
     transition: 0.5s all;
+    border: none;
+    
+    
 }
-
 .card-img, .card-img-bottom, .card-img-top {
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    width: 200%;
-    height: 200px;
+    height: 200px ;
+   
 }
-
 .card-title{
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 700;
 }
-
-#seccion .titulos{
+.titulos{
     font-family: "Poppins",sans-serif;
-    color: #1A171B;
+    color: #ffffff;
+    text-shadow: 0 0 0.1em #8F7;
     font-size: 32px;
     text-align: start;
 }
-
 .btn-primary{
     padding: 0.3rem 1rem !important;
     background-color: #FF7777 !important;
@@ -71,11 +73,6 @@ html{
     border: none !important;
 }
 
-
-
-@media (min-width: 768px), (min-width: 992px){
-
-}
 
 /* FIN CARDS */
 
@@ -129,46 +126,53 @@ html{
 /* FIN SUMATE */
 
 /* FOOTER */
-​
+
 .footer {
-  background: #303036;
-  color: #d3d3d3;
-}
-.footer .footer-botton {
-  background: #343a40;
-  color: #686868;
-  text-align: center;
-  bottom: 0px;
-  left: 0px;
-  line-height: 50px;
-  border: 2px solid #76e8ab;
-}
-​
-.footer .footer-content .footer-section {
-  border: 2px solid #76e8ab;
-  padding: 25px;
-  color: white;
-}
-/* FIN FOOTER */
-​
-/*MODAL*/
-​
-.modal-form {
-  background-color: #393e46;
-  border: 2px solid #76e8ab;
-  border-radius: 0.2rem;
-  padding: 0.5rem 0.5rem;
-}
-​
-.modal-header{
-  background-color: #76e8ab;
-}
-​
-.modal-body{
-  background-color: #76e8ab;
-}
-​
-.modal-footer{
-  background-color: #76e8ab;
-}
-/* ​FIN MODAL */
+    background: #303036;
+    color: #d3d3d3;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer .footer-botton {
+    background: #343a40;
+    color: #686868;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    line-height: 20px;
+    border: 2px solid #76e8ab;
+    font-size: x-small;
+  }
+  
+  .footer .footer-content .footer-section {
+    border: 2px solid #76e8ab;
+    padding: 25px;
+    color: white;
+    font-size: small;
+    text-align: center;
+  }
+  /* FIN FOOTER */
+  
+  /*MODAL*/
+  
+  .modal-form {
+    background-color: #393e46;
+    border: 2px solid #5572c4;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.5rem;
+  }
+  
+  .modal-header{
+    background-color: #5572c4;
+  }
+  
+  .modal-body{
+    background-color: #5572c4;
+  }
+  
+  .modal-footer{
+    background-color: #5572c4;
+  }
+  
+  /* FIN MODAL */
+  
