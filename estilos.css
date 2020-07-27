@@ -15,8 +15,11 @@ body{
  img {
     width: 140px; 
 }
-    .text-rolling {
-        color: #FF7777 !important;
+    .text-green {
+        color: #76e8ab !important;
+    }
+    .text-salmon {
+        color: #ff7777 !important;
     }
 
 #main .caurrusel-inner img {
@@ -181,7 +184,7 @@ body{
   }
   
   .btn-cancelar {
-    background-color: #D40808;
+    background-color: #ff7777;
     color: #FFFFFF;
     padding: 0.3rem 1rem !important;
   }
