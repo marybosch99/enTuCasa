@@ -157,22 +157,38 @@ body{
   
   .modal-form {
     background-color: #393e46;
-    border: 2px solid #5572c4;
+    border: 2px solid  #222831;
     border-radius: 0.2rem;
     padding: 0.5rem 0.5rem;
+    color: #FFFFFF;
+  }
+
+  .modal-title{
+      color: #FFFFFF;
   }
   
   .modal-header{
-    background-color: #5572c4;
+    background-color:  #222831;
+    
   }
   
   .modal-body{
-    background-color: #5572c4;
+    background-color: #222831;
   }
   
   .modal-footer{
-    background-color: #5572c4;
+    background-color:  #222831;
   }
   
+  .btn-cancelar {
+    background-color: #D40808;
+    color: #FFFFFF;
+    padding: 0.3rem 1rem !important;
+  }
+  .btn-cancelar:hover {
+    background-color: #9c1e1e8a;
+    color: #FFFFFF;
+    padding: 0.3rem 1rem !important;
+  }
   /* FIN MODAL */
   
