@@ -55,15 +55,15 @@ body{
 
 
 /* controles de formulario */
-.form-control {
+.form-controls {
     background-color: var(--color-claro);
     border: 2px solid var(--color-claro);
     border-radius: .2rem;
     padding: 1.5rem 1rem;
-    color: var(--color-light);
+    color: var(--color-black);
 }
 
-.form-control:focus {
+.form-controls:focus {
     background-color: var(--color-light);
     border: 2px solid var(--color-green);
     color: var(--color-black);
